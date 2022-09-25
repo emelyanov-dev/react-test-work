@@ -1,0 +1,25 @@
+.GamesFiltersContainer {
+  display: flex;
+  gap: 20px
+}
+
+.GamesFiltersContainer__filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.GamesFiltersContainer__filter label {
+  font-size: 14px;
+  line-height: 16px;
+  padding-bottom: 2px;
+  color: #37474f;
+}
+
+.GamesFiltersContainer__filter select {
+  height: 32px;
+  width: 160px;
+  padding: 0 8px;
+  border-radius: 8px;
+  border-color: #cfd8dc;
+}
+

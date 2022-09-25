@@ -1,0 +1,8 @@
+.GameDetailPage__link {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1976d2;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 20px;
+}

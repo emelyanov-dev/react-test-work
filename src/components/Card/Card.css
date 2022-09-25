@@ -1,0 +1,30 @@
+.Card {
+  background-color: #ffffff;
+  border: 1px solid #eceff1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.Card:hover {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.3);
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.Card__image {
+  display: block;
+  width: 100%;
+}
+
+.Card__body {
+  padding: 12px;
+}
+
+.Card__title {
+  display: block;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #263238;
+}
